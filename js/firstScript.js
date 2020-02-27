@@ -23,3 +23,7 @@ document.addEventListener('keydown', function (event) {
              break;
      }
 });
+
+function clickProcessing(direction) {
+    mySnake.direction = direction;
+}

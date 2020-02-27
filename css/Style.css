@@ -7,3 +7,21 @@
 table {
     border-collapse: collapse;
 }
+
+button {
+    margin: 3px;
+}
+
+#controlButtons {
+    margin: 10px;
+    flex-direction: column;
+    width: 68vw;
+    display: flex;
+    align-content: center;
+}
+
+.rowButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
